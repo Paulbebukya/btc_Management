@@ -1,0 +1,13 @@
+
+RewriteEngine on
+
+RewriteRule ^([a-zA-Z0-9\-\_\/]*)$ index.php?p=$1
+
+
+# Order Allow, Deny
+# Deny from Allow
+# <FilesMatch "\.(js|css|php)$">
+#     Order Deny, Allow
+#     Allow from all
+# </FilesMatch>
+
